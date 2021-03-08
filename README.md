@@ -1,6 +1,9 @@
 # commodities-scraping-api
 Esta e uma API que retorna o valor diário de commodities.
 
+<img src="https://im7.ezgif.com/tmp/ezgif-7-80894e27fa73.gif" alt="demo" height="400">
+<hr />
+
 <p align="center">
   <a href="#-acesso">Acesso a API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-lista-de-commodities-aceitos">Lista de commodities</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -12,7 +15,7 @@ Esta e uma API que retorna o valor diário de commodities.
 Para acessar a API, utilize o nome de um commodity, como por exemplo "soja".
 
 Exemplo de pesquisa:
-https://commodities-scraping-api.herokuapp.com/soja
+https://commodities-scraping-api.herokuapp.com/commodity/soja
 
 ## 🌽 Lista de commodities aceitos:
 - Ouro (Grama)
@@ -24,11 +27,11 @@ https://commodities-scraping-api.herokuapp.com/soja
 - Ovo (Dúzia)
 
 ## 📑 Formato do retorno
-O retorno é feito via um objeto JSON, com o valor do commodity neste dia.
+O retorno é feito via um objeto JSON, com a unidade de medida e o valor do commodity neste dia.
 
 ~~~json
 {
-  "value": "162,96"
+  "saca": "162,96"
 }
 ~~~
 
