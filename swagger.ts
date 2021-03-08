@@ -19,7 +19,7 @@ export const swaggerDocument = {
   ],
   schemes: ["https"],
   paths: {
-    "/{commodity}": {
+    "/commodity/{commodity}": {
       get: {
         tags: ["commodity"],
         summary: "Get today value by commodity name",
