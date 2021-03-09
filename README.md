@@ -1,7 +1,7 @@
 # commodities-scraping-api
 Esta e uma API que retorna o valor diário de commodities.
 
-<img src="https://im7.ezgif.com/tmp/ezgif-7-80894e27fa73.gif" alt="demo" height="400">
+<img src="https://imgur.com/x3Jw5Bi" alt="demo" height="400">
 <hr />
 
 <p align="center">
